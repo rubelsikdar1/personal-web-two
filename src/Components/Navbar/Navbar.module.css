@@ -1,0 +1,37 @@
+
+.fullPage{
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid var(--brand-color);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.logoAnHumbarger img{
+    width: 40px;
+    height: auto;
+}
+.HumbargerHide{
+    display: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul{
+    display: flex;
+}
+.ul li{
+    padding: 10px 15px;
+    font-size: 20px;
+    color: var(--drak-color);
+}
+.button button{
+    padding: 10px 20px;
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --brand-color:#27AE60;
+  --hover-brand-color:#E74C3C;
+    
+  --white-color:white;
+  --drak-color:#2C3E50;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px){
+  .container {
+    padding: 0px 10px; 
+  }
+}
