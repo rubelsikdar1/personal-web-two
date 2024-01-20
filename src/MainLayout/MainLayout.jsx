@@ -9,7 +9,7 @@ const MainLayout = () => {
   return (
     <div>
       <Navbar />
-      <ScrollRestoration />
+      {/* <ScrollRestoration /> */}
       <motion.div
         className={styles.progressBar}
         style={{ scaleX: scrollYProgress }}

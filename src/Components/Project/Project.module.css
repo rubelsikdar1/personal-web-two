@@ -1,0 +1,81 @@
+.mainBox {
+  margin: 15px auto;
+}
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--brand-color);
+  text-align: center;
+  padding: 10px;
+  
+}
+.heading h1{
+    border-bottom: 2px solid var(--brand-color);
+    display: inline-block;
+}
+.box{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.protfiloBox{
+    width: 50%;
+    height: 380px;
+    background-color: var(--brand-color);
+    backdrop-filter: blur(10px);
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.protfiloBox h2{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.btn{
+    background-color: var(--hover-brand-color);
+    margin-top: 10px;
+}   
+.protfiloBox img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: rgba(243, 241, 241, 0.70) 0px 5px 15px;
+}
+.protfiloBox img:hover{
+    transform: scale(1.5);
+    transition: all 1.5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.see{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.see:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+
+@media screen and (max-width:600px) {
+    .box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .protfiloBox{
+        width: 100%;
+        height: 300px;
+    }
+}
