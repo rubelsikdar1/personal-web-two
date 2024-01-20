@@ -24,7 +24,7 @@ const HerroAria = () => {
             <h1>Rubel Sikdar</h1>
             <p>
               <Typewriter
-                words={["Front-End Web Developer", "Framework : React Js , Next Js","CSS Libary : Tailwind , Bootstrap" ]}
+                words={["Front-End Web Developer", "Expert In: Framework : React Js , Next Js","Expert In: CSS Library : Tailwind , Bootstrap" ]}
                 loop={Infinity}
                 cursor
                 cursorStyle="_"

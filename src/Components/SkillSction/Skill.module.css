@@ -1,0 +1,74 @@
+.mainBox{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+  flex: 1;
+}
+.left h1{
+    font-size: 40px;
+    color: var(--brand-color);
+} 
+.left img{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.right {
+  flex: 1;
+}
+
+.skillBox{
+    width: 90%;
+    height: 90px;
+    background-color: var(--brand-color);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 7px;
+}
+.skillBox:hover{
+    transform: scale(.9);
+}
+.rightBoxTop{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px 15px;
+    color: var(--white-color);
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .mainBox{
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left h1{
+          font-size: 30px;
+          margin: 10px 0;
+    }
+    .left img{
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+    }
+      
+      .skillBox{
+          width: 95vw;
+          height: auto;
+          background-color: var(--brand-color);
+          border-radius: 8px;
+          padding: 10px;
+          margin: 7px;
+      }
+
+}
